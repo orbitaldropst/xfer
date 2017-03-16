@@ -1,0 +1,23 @@
+# Dockerfile for Honeycomb Web App Instance
+# Author: Christopher Bennett
+# Email: christopher.k.bennett@lmco.com
+
+# Use Latest Debian Linux Image
+FROM debian:latest
+LABEL maintainer="CIS Security Readiness Team > Blue Team"
+
+# Update package manager
+#RUN apt-get update
+
+# Run non-interactive install of glassfish and java runtimes
+#RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q [glassfish packages] [java packages]
+
+# Set environment variables for JAVA
+#CMD ["export","PATH="]
+#CMD ["export","JAVA_HOME="]
+
+# Add 
+# ADD ./webapp /opt/webapp/
+# WORKDIR /opt/webapp
+# EXPOSE 5000
+# CMD ["asadmin", "app.py"]
